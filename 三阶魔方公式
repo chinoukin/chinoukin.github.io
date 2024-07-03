@@ -1,0 +1,17 @@
+三阶魔方公式
+
+二层公式
+1-1. U R U' R' U' F' U F
+1-2. U' L' U L U F U' F'
+2. R U U R' U R U U R' U F' U' F
+
+三层公式
+1-1. R' U' R U' R' U' U' R
+1-2. L U L' U L U U L'
+
+2-1. R' U R' U' R' U' R' U R U R R 
+2-2. L U' L U L U L U' L' U' L' L'
+
+花式
+色心(六面回字)
+R L' F B' U D' R L'
