@@ -9,7 +9,7 @@ git config --global user.email chinoukin@qq.com
 2.
 git config --global https.proxy http://127.0.0.1:1080
 git config --global http.proxy http://127.0.0.1:1080
-git config –global credential.helper store
+git config --global credential.helper store
 
 3. 
 git clone https://github.com/chinoukin/chinoukin.github.io.git
@@ -20,4 +20,13 @@ git config --global --unset https.proxy
 git config --global --unset http.proxy
 git config  https.proxy http://127.0.0.1:1080
 git config http.proxy http://127.0.0.1:1080
+
+
+4.不建议用密码登陆github,用token登陆
+git credential-manager github login
+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
+
+5.退出重新登陆
+git credential-manager github logout chinoukin
+rm -f ~/.git-credentials
 
